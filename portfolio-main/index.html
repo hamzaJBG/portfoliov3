@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Grape+Nuts&family=Old+Standard+TT:wght@700&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor circle"></div>
+    <div class="cursor point"></div>
+    <!-- Header -->
+    <header class="header">
+        <ul class="nav-bar">
+            <i class="fa-solid fa-bars nav-bar-open"></i>
+            <!-- <li class=""></li> -->
+            <a href="#main-page" class="list">
+                <span class="list-title">HOME</span>
+                <i class="fa-solid fa-house list-icon"></i>
+            </a>
+            <a href="#about" class="list">
+                <span class="list-title">PROJECT</span>
+                <i class="fa-solid fa-briefcase list-icon"></i>
+            </a>
+            <a href="#contact" class="list">
+                <span class="list-title">CONTACT</span>
+                <i class="fa-solid fa-message list-icon"></i>
+            </a>
+        </ul>
+    </header>
+
+    <!-- Main page -->
+
+    <main id="main-page" class="main-page">
+        <div class="image">
+            <div class="img-top"></div>
+            <div class="img-bottom"></div>
+        </div>
+        <div class="introduction">
+            <h1>Hamza Jaballi</h1>
+            <p>Im a <span id="typing-effect"></span> </p>
+        </div>
+        <div class="holder-btn">
+            <button class="discover">DISCOVER
+                <i class="fa-solid fa-chevron-left bottom"></i>
+            </button>
+            
+        </div>
+
+    </main>
+    <section class="about" id="about">
+        <h1 class="title">My Skills</h1>
+        <div class="cart html">
+            <div class="img">
+                <img src="./html.png" alt="">
+            </div>
+            <div class="info">
+                <h2>HTML</h2>
+                <p>clean and semantics HTML5 code</p>
+            </div>
+        </div>
+        <div class="cart css">
+            <div class="img">
+                <img src="./css.png" alt="">
+            </div>
+            <div class="info">
+                <h2>CSS</h2>
+                <p>respensive native css grid , flex , BootsTrap ...</p>
+            </div>
+        </div>
+        <div class="cart JavaScript">
+            <div class="img">
+                <img src="./javascript.png" alt="">
+            </div>
+            <div class="info">
+                <h2>JavaScript</h2>
+                <p>DOM ,ES6  </p>
+            </div>
+        </div>
+        <div class="cart React">
+            <div class="img">
+                <img src="./react.png" alt="">
+            </div>
+            <div class="info">
+                <h2>React</h2>
+                <p>SPA: using ReactJs , API </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work">
+        <h1 class="title title-work">Some Work</h1>
+        <div class="project">
+            <div class="face1">
+                <h1>google student developer tunisian club </h1>
+                <h1>Landing Page</h1>
+                <ul>
+                    <li>javascript ,ReactJs</li>
+                    <li>css</li>
+                    
+                </ul>
+            </div>
+            <div class="face2">
+                <img src="./1.PNG" alt="">
+                <button>More details</button>
+            </div>
+        </div>
+        <div class="project">
+            <div class="face1">
+                <h1>Shooping Exemple</h1>
+            <h1>Landing Page</h1>
+            <ul>
+                <li>HTML </li>
+                <li>JavaScript </li>
+                <li>css</li>
+                
+            </ul>
+            </div>
+            <div class="face2">
+                <img src="./2.PNG" alt="">
+                <button>More details</button>
+            </div>
+        </div>
+ 
+
+    </section>
+ <!-- contact page-->
+
+   <section id="contact" class="contact">
+        <div class="input valid input-email">
+            <input placeholder="YOUR EMAIL" type="text" class="email">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="input input-name">
+            <input placeholder="YOUR NAME" type="text" class="email">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div  class="input input-message">
+            <input placeholder="YOUR MESSAGE" type="text" class="email">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div  class="input input-thanks">
+            <p>Thanks , we recive your message</p>
+            
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+<!-- java scriot file -->
+    <script src="script.js"></script>
+</body>
+</html>
